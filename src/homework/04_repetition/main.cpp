@@ -1,8 +1,52 @@
-//write include statements
+#include <iostream>
+#include "repetition.h"
+using namespace std;
 
-//write using statements
-
-int main() 
+int main()
 {
-	return 0;
+    int choice;
+    do
+    {
+        cout << "\nHomework 4 Menu\n";
+        cout << "1 - Factorial\n";
+        cout << "2 - Sum odd numbers\n";
+        cout << "3 - Exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        if (choice == 1)
+        {
+            int num;
+            do
+            {
+                cout << "Enter a number (1-9): ";
+                cin >> num;
+            } while (num <= 0 || num >= 10);
+
+            cout << "Factorial of " << num << " is " << get_factorial(num) << endl;
+        }
+        else if (choice == 2)
+        {
+            int num;
+            do
+            {
+                cout << "Enter a number (1-99): ";
+                cin >> num;
+            } while (num <= 0 || num >= 100);
+
+            cout << "Sum of odd numbers up to " << num << " is " << sum_odd_numbers(num) << endl;
+        }
+        else if (choice == 3)
+        {
+            cout << "Exiting program..." << endl;
+        }
+        else
+        {
+            cout << "Invalid choice! Please try again.\n";
+        }
+
+    } while (choice != 3);
+
+    return 0;
 }
+
