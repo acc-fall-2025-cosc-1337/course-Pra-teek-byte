@@ -48,4 +48,9 @@ int main()
     } while (choice != 3);
 
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> hw05_fixed
