@@ -1,8 +1,4 @@
 #include "repetition.h"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> hw05_fixed
 
 int get_factorial(int num)
 {
@@ -69,5 +65,4 @@ int sum_odd_numbers(int num)
 
     return sum;
 }
->>>>>>> aa1a573 (Homework 4: Completed menu program and unit tests for factorial & sum of odd numbers)
->>>>>>> hw05_fixed
+
