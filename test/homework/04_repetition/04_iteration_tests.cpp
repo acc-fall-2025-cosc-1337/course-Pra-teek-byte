@@ -14,11 +14,4 @@ TEST_CASE("Test sum_odd_numbers function")
     REQUIRE(sum_odd_numbers(5) == 9);   // 1 + 3 + 5 = 9
     REQUIRE(sum_odd_numbers(10) == 25); // 1 + 3 + 5 + 7 + 9 = 25
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 
-
-=======
->>>>>>> aa1a573 (Homework 4: Completed menu program and unit tests for factorial & sum of odd numbers)
->>>>>>> hw05_fixed
