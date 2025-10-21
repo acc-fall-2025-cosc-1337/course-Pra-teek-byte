@@ -1,7 +1,6 @@
-// func.cpp
+
 #include "func.h"
 
-// Calculate GC content
 double get_gc_content(const string& dna)
 {
     if (dna.empty()) return 0.0;
@@ -36,7 +35,7 @@ string get_dna_complement(string dna)
             case 'T': base = 'A'; break;
             case 'C': base = 'G'; break;
             case 'G': base = 'C'; break;
-            default: break; // unexpected characters ignored
+            default: break; 
         }
     }
     return reversed;
