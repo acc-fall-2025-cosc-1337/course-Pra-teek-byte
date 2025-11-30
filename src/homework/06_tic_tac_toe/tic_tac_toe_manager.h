@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef TIC_TAC_TOE_MANAGER_H
 #define TIC_TAC_TOE_MANAGER_H
 
@@ -24,3 +25,6 @@ private:
 };
 
 #endif
+=======
+//h
+>>>>>>> 56b1d4fc5fbdb1aed6ffd32ad551aa8a3f0cb210

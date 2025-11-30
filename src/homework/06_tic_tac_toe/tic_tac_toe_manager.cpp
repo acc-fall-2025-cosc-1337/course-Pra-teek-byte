@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "tic_tac_toe_manager.h"
 
 void TicTacToeManager::save_game(TicTacToe b)
@@ -22,3 +23,6 @@ void TicTacToeManager::update_winner_count(string winner)
     else if (winner == "C")
         ++ties;
 }
+=======
+//cpp
+>>>>>>> 56b1d4fc5fbdb1aed6ffd32ad551aa8a3f0cb210
